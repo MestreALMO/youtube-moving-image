@@ -41,7 +41,7 @@ yarn dev
 <br />You can access it with ```http://localhost:3000/``` and ```http://localhost:3001/```
 
 ## YouTube
-https://youtu.be/e7EF23f0rbs
+Video: https://youtu.be/e7EF23f0rbs
 
 ## Contact
 
