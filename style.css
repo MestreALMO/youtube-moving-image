@@ -1,0 +1,27 @@
+#spiderman {
+  width: 300px;
+  position: absolute;
+  animation: linear infinite;
+  animation-name: run;
+  animation-duration: 5s;
+}
+
+@keyframes run {
+  0% {
+    left: 0;
+  }
+  40% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    left: calc(100% - 300px);
+    transform: rotateY(180deg);
+  }
+  90% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    left: 0;
+    transform: rotateY(0deg);
+  }
+}
